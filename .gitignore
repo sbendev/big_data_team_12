@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# cache
+.cache/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+
+# data (large files — add to git if needed)
+ml-100k/

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; nb = json.load\\(open\\('TheatreIQ_FirstPass.ipynb'\\)\\); print\\(f'Valid JSON. Cells: {len\\(nb[\\\\\"cells\\\\\"]\\)}, nbformat: {nb[\\\\\"nbformat\\\\\"]}'\\)\")",
+      "Bash(python3 -c \"from theateriq.synthetic_performance import generate_performance, VENUE_CAPACITY; print\\('synthetic_performance.py imports OK'\\); print\\('Capacities:', VENUE_CAPACITY\\)\")"
+    ]
+  }
+}
