@@ -11,6 +11,7 @@ VENUE_CAPACITY: dict[str, int] = {
     "Riverview Theater": 250,
     "Lagoon":            350,
     "Heights Theater":   500,
+    "Drafthouse":        150,
 }
 DEFAULT_CAPACITY = 200
 
